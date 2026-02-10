@@ -15,5 +15,8 @@
 # include <fcntl.h>
 # include <sys/stat.h>
 # include <poll.h>
+# include <exception>
+
+# define INVALID_SOCKET -1
 
 #endif
